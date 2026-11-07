@@ -1,0 +1,265 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Mundo | Mi Página Personal</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #fff5fa;
+            color: #453346;
+            line-height: 1.7;
+        }
+
+        header {
+            background: linear-gradient(135deg, #e9a6ce, #b9a4e8);
+            color: white;
+            text-align: center;
+            padding: 65px 20px;
+        }
+
+        header h1 {
+            font-size: 45px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        nav {
+            background: white;
+            padding: 16px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+        }
+
+        nav a {
+            color: #a34d83;
+            text-decoration: none;
+            margin: 0 12px;
+            font-weight: bold;
+        }
+
+        section {
+            max-width: 950px;
+            margin: auto;
+            padding: 45px 22px;
+        }
+
+        h2 {
+            color: #a34d83;
+            text-align: center;
+            margin-bottom: 22px;
+        }
+
+        .tarjetas {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 18px;
+        }
+
+        .tarjeta {
+            background: white;
+            padding: 25px;
+            text-align: center;
+            border-radius: 18px;
+            box-shadow: 0 5px 15px #9b5a8115;
+        }
+
+        .tarjeta .emoji {
+            font-size: 35px;
+        }
+
+        .tarjeta h3 {
+            color: #a34d83;
+            margin: 10px 0;
+        }
+
+        .sobre-mi {
+            background: white;
+            border-radius: 20px;
+            padding: 28px;
+            text-align: center;
+        }
+
+        .frase {
+            background: #f1ddf0;
+            text-align: center;
+            padding: 35px 20px;
+            font-size: 21px;
+            font-style: italic;
+            color: #884c83;
+        }
+
+        button {
+            display: block;
+            margin: 20px auto 0;
+            background: #b66b9d;
+            color: white;
+            border: none;
+            border-radius: 25px;
+            padding: 13px 25px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #8f4778;
+        }
+
+        #mensaje {
+            text-align: center;
+            color: #a34d83;
+            padding: 0 20px 25px;
+        }
+
+        footer {
+            background: #674568;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        @media (max-width: 650px) {
+            .tarjetas {
+                grid-template-columns: 1fr;
+            }
+
+            header h1 {
+                font-size: 34px;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 5px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>✨ Mi Mundo ✨</h1>
+        <p>Un pequeño espacio para mis sueños, mi esencia y mi futuro.</p>
+    </header>
+
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#suenos">Mis sueños</a>
+        <a href="#metas">Mis metas</a>
+    </nav>
+
+    <section id="inicio">
+        <div class="sobre-mi">
+            <h2>¡Bienvenidos a mi mundo! 💗</h2>
+            <p>
+                Soy una persona risueña, chistosa y con muchas ganas
+                de salir adelante. Me gusta imaginar mi futuro,
+                aprender cosas nuevas y compartir momentos especiales
+                con las personas que quiero.
+            </p>
+        </div>
+    </section>
+
+    <section id="sobre-mi">
+        <h2>🌷 Un poquito sobre mí</h2>
+
+        <div class="tarjetas">
+            <div class="tarjeta">
+                <div class="emoji">😂</div>
+                <h3>Mi personalidad</h3>
+                <p>Me gusta reír, hacer bromas y disfrutar los buenos momentos.</p>
+            </div>
+
+            <div class="tarjeta">
+                <div class="emoji">🤍</div>
+                <h3>Mis valores</h3>
+                <p>El respeto, la lealtad y la confianza son importantes para mí.</p>
+            </div>
+
+            <div class="tarjeta">
+                <div class="emoji">🌎</div>
+                <h3>Lo que me inspira</h3>
+                <p>Aprender de otras personas, conocer el mundo y ayudar a los demás.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="suenos">
+        <h2>💭 Mis sueños</h2>
+
+        <div class="sobre-mi">
+            <p>
+                Sueño con estudiar Medicina, especializarme en Oncología,
+                conocer diferentes lugares del mundo y tener la oportunidad
+                de ayudar a muchas personas.
+            </p>
+            <p>
+                Quiero construir un futuro del que me sienta orgullosa
+                y demostrarme que, con esfuerzo y perseverancia,
+                puedo avanzar hacia mis objetivos.
+            </p>
+        </div>
+    </section>
+
+    <section id="metas">
+        <h2>🎯 Mis metas</h2>
+
+        <div class="tarjetas">
+            <div class="tarjeta">
+                <div class="emoji">📚</div>
+                <h3>Estudiar</h3>
+                <p>Terminar mis estudios y prepararme para mi carrera profesional.</p>
+            </div>
+
+            <div class="tarjeta">
+                <div class="emoji">🩺</div>
+                <h3>Mi profesión</h3>
+                <p>Estudiar Medicina y trabajar para mejorar la vida de otras personas.</p>
+            </div>
+
+            <div class="tarjeta">
+                <div class="emoji">✈️</div>
+                <h3>Conocer el mundo</h3>
+                <p>Viajar, descubrir culturas y vivir experiencias inolvidables.</p>
+            </div>
+        </div>
+
+        <button onclick="mostrarMensaje()">
+            Un mensaje para mi futuro ✨
+        </button>
+    </section>
+
+    <div id="mensaje"></div>
+
+    <div class="frase">
+        "Estoy construyendo poco a poco la vida con la que sueño." 💕
+    </div>
+
+    <footer>
+        <p>Mi Mundo 💗 | Creado con ilusión</p>
+        <p>Mis sueños, mi camino y mi futuro.</p>
+    </footer>
+
+    <script>
+        function mostrarMensaje() {
+            document.getElementById("mensaje").textContent =
+                "Nunca olvides tus sueños. Confía en ti, aprende de cada experiencia y sigue avanzando a tu propio ritmo. ¡Tu futuro tiene muchas posibilidades! 💗";
+        }
+    </script>
+
+</body>
+</html>
